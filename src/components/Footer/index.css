@@ -1,0 +1,74 @@
+
+/* NỀN FOOTER */
+.container-footer {
+  width: 100%;
+  background-color: #c4161c;
+  padding: 50px 0;
+  color: white;
+  height: 150px;
+  padding-top: 5px;
+}
+
+/* HÀNG CHỨA 4 CỘT */
+.row {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* CỘT CHUNG */
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TIÊU ĐỀ */
+.row h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* TEXT */
+.row span {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-family: "Segoe UI";
+}
+
+/* LIST */
+.row ul {
+  list-style: none;
+  padding: 0;
+}
+
+.row ul li {
+  margin-bottom: 10px;
+}
+
+/* LINK */
+.row ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+
+}
+
+.row ul li a:hover {
+  color: #f3b114;
+  padding-left: 5px;
+}
+
+/* FANPAGE CỘT */
+.row > div:last-child {
+  display: flex;
+  flex-direction: column;
+}

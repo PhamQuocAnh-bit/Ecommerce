@@ -1,0 +1,58 @@
+
+
+.container {
+    background: #F5F0Cf;
+    padding: 15px 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-1 img {
+    height: 5px;
+}
+
+.row-2 {
+    flex: 1;
+    margin: 0 40px;
+}
+
+.sologan h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+  
+    font-weight: 900;
+    color : #BF1927;
+    text-shadow: -3px 3px 0px #F3B114;
+    line-height: 1.5px;
+}
+
+.inner-menu {
+    background: #F3B114;
+    
+}
+
+.inner-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap : 30px ;
+}
+.inner-menu ul li {
+    position: relative;
+}
+
+.inner-menu ul li a {
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+/* Hover */
+
+.inner-menu ul li a:hover {
+    color: black;
+}
